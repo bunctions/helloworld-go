@@ -6,3 +6,5 @@ functions:
     lang: go
     handler: ./helloworld
     image: bunctions/helloworld:latest
+    labels:
+      com.openfaas.scale.zero: true
