@@ -5,8 +5,8 @@ import (
 )
 
 type response struct {
-	Success bool
-	Message string
+	Success bool   `json:"success"`
+	Message string `json:"message"`
 }
 
 // Handle a serverless request
