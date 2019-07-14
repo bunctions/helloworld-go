@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  helloworld:
+    image: bunctions/helloworld:latest
+    container_name: bunctions_helloworld
+    ports:
+      - 8080:8080
+    environment:
+      content_type: "application/json"
+      combine_output: "false"

@@ -8,3 +8,6 @@ functions:
     image: bunctions/helloworld:latest
     labels:
       com.openfaas.scale.zero: true
+    environment:
+      content_type: "application/json"
+      combine_output: "false"
